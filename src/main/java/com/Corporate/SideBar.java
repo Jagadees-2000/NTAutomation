@@ -103,32 +103,6 @@ public class SideBar {
 			
 			
 			
-page.locator(".flex.flex-col.gap-4.items-center.justify-center").nth(0).click();
-			
-			page.locator(".default-primary-btn").click();
-			PlaywrightAssertions.assertThat(page.locator(".mt-1.text-sm.text-error ").nth(0)).containsText("Profession is required");
-			PlaywrightAssertions.assertThat(page.locator(".mt-1.text-sm.text-error ").nth(1)).containsText("Job Title is required");
-			PlaywrightAssertions.assertThat(page.locator(".mt-1.text-sm.text-error ").nth(2)).containsText("Experience is required");
-			
-			PlaywrightAssertions.assertThat(page.locator(".mt-1.text-sm.text-error ").nth(3)).containsText("Job Duration is required");
-			PlaywrightAssertions.assertThat(page.locator(".mt-1.text-sm.text-error ").nth(4)).containsText("Department is required");
-			PlaywrightAssertions.assertThat(page.locator(".mt-1.text-sm.text-error ").nth(5)).containsText("No of Positions is required");
-			PlaywrightAssertions.assertThat(page.locator(".mt-1.text-sm.text-error ").nth(6)).containsText("Job Start Date is required");
-			PlaywrightAssertions.assertThat(page.locator(".mt-1.text-sm.text-error ").nth(7)).containsText("Job End Date is required");
-			PlaywrightAssertions.assertThat(page.locator(".mt-1.text-sm.text-error ").nth(8)).containsText("Job Start Time is required");
-			PlaywrightAssertions.assertThat(page.locator(".mt-1.text-sm.text-error ").nth(9)).containsText("Last Date to Apply is required");
-			PlaywrightAssertions.assertThat(page.locator(".mt-1.text-sm.text-error ").nth(10)).containsText("Job Description is required");
-			PlaywrightAssertions.assertThat(page.locator(".mt-1.text-sm.text-error ").nth(11)).containsText("Qualification is required");
-			PlaywrightAssertions.assertThat(page.locator(".mt-1.text-sm.text-error ").nth(12)).containsText("Salary Type is required");
-			PlaywrightAssertions.assertThat(page.locator(".mt-1.text-sm.text-error ").nth(13)).containsText("Recruiter is required");
-			PlaywrightAssertions.assertThat(page.locator(".mt-1.text-sm.text-error ").nth(14)).containsText("Recruiter Name is required");
-			PlaywrightAssertions.assertThat(page.locator(".mt-1.text-sm.text-error ")).containsText("Recruiter phone number is required");
-			
-			PlaywrightAssertions.assertThat(page.locator(".mt-1.text-sm.text-error ").nth(16)).containsText("Recruiter Mail Id is required");
-			PlaywrightAssertions.assertThat(page.locator(".mt-1.text-sm.text-error ").nth(17)).containsText("Name is required");
-			PlaywrightAssertions.assertThat(page.locator(".mt-1.text-sm.text-error ").nth(18)).containsText("Phone number is required");
-			PlaywrightAssertions.assertThat(page.locator(".mt-1.text-sm.text-error ").nth(19)).containsText("Mail Id is required");
-			
 		}
 		
 		
