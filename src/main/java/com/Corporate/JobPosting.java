@@ -6,7 +6,7 @@ import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
 
 
-public class JobWorkFlow { 
+public class JobPosting { 
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
